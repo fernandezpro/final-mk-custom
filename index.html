@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.6.1/toastify.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="icon" href="styles/img/favicom.jpg">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Mk-Custom</title>
+</head>
+<body id="body">
+    <header>
+        <nav id="nav-bar">
+            <img id="nav-bar__logo" src="styles/img/logo.png">
+            <div id="nav-bar__menu">
+                <div id="li__carrito">
+                    <p id="subtotal__carrito">$0ARS</p>
+                    <img id="logo__carrito" src="styles/img/carrito.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="banner">
+        <video id="video" src="styles/img/banner-video.mp4" muted></video>
+    </div>
+    <main id="main">
+        <div id="lista-carrito">
+            <div id="base-carrito">
+                <img id="lista-carrito__cerrar" src="styles/img/cerrar.png" alt="">
+                <h4 id="lista-carrito__titulo">CARRITO</h4>
+            </div>
+            <div id="lista-productos">
+            </div>
+            <div id="div__subtotal">
+                <p><strong>SUBTOTAL: </strong></p>
+                <p id="subtotal">$0ARS</p>
+            </div>
+            <div id="div__botones__carrito">
+                <button id="finalizar__compra">FINALIZAR COMPRA</button>
+                <button id="vaciar__carrito">VACIAR CARRITO</button>
+            </div>
+        </div>
+        <div id="div-formulario">
+            <form id="formulario" action="">
+                <label id="ordenar-titulo" for="orden">ORDENAR PRODUCTOS</label>
+                <select id="select-orden">
+                    <option name="orden" value="Alfabéticamente">Alfabeticamente</option>
+                    <option name="orden" value="Menor a mayor precio">Precio : Menor a mayor</option>
+                    <option name="orden" value="Mayor a menor precio">Precio : Mayor a menor</option>
+                </select>
+                <button id="ordenar">ORDENAR</button>
+                <h4 id="form-titulo">BUSCAR POR CATEGORIA</h4>
+                <label class="tipo"><input type="radio" value="Secundaria" name="tipo"
+                        id="tipo__Secundaria">Secundaria</label>
+                <label class="tipo"><input type="radio" value="Cqb" name="tipo"
+                        id="tipo__Cqb">Cqb</label>
+                <label class="tipo"><input type="radio" value="Asalto" name="tipo"
+                        id="tipo__Asalto">Asalto</label>
+                <label class="tipo"><input type="radio" value="Dmr" name="tipo"
+                        id="tipo__Dmr">Dmr</label>
+                <label class="tipo"><input type="radio" value="Soporte" name="tipo" 
+                        id="tipo__Soporte">Soporte</label>
+                <label class="tipo"><input type="radio" value="Escopeta" name="tipo" 
+                        id="tipo__Escopeta">Escopeta</label>
+                <button id="filtrar">FILTRAR</button>
+            </form>
+            <button id="reestablecer">REESTABLECER</button>
+        </div>
+        <div id="galeria">
+        </div>
+    </main>
+    <footer id="footer">
+        <div id="nosotros">
+            <h5 id="nosotros__titulo">NOSOTROS</h5>
+            <hr class="barra-footer">
+            <p id="nosotros__texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Hic necessitatibus autem impedit fuga error possimus,
+                iusto veritatis id? Facere iure soluta nemo eius illum,
+                amet quisquam voluptatibus quis optio voluptatum.
+            </p>
+        </div>
+        <div id="promociones">
+            <h5 id="promociones__titulo">PROMOCIONES</h5>
+            <hr class="barra-footer">
+            <p id="promociones__texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ea animi omnis debitis magnam aspernatur! Dolorem, suscipit
+                placeat vero officiis ipsa voluptate tempora, velit deserunt
+                nesciunt non cupiditate assumenda consectetur. Totam.
+            </p>
+            <a class="promociones__suscribirme" href="#">SUSCRIBIRME</a>
+        </div>
+    </footer>
+    <script src="scripts/baseDeDatos/baseDatos.js" type="module"></script>
+    <script src="scripts/funcionesCarrito/funcionesCarrito.js" type="module"></script>
+    <script src="scripts/funcionesGaleriaMarcadoras/funcionesGaleria.js" type="module"></script>
+    <script src="scripts/filtradoYOrden/filtradoYOrden.js" type="module"></script>
+    <script src="scripts/main/main.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</body>
+</html>

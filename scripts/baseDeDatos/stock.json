@@ -1,0 +1,79 @@
+[
+    {
+        "nombre":"Colt 1911",
+        "precio":4000,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Secundaria",
+        "id":1
+    },
+    {
+        "nombre":"Umarex glock 17",
+        "precio":4000,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Secundaria",
+        "id":2
+    },
+    {
+        "nombre":"Krytac tridnet mk2",
+        "precio":6000,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Cqb",
+        "id":3
+    },
+    {
+        "nombre":"Cyma sport m4",
+        "precio":4000,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Cqb",
+        "id":4
+    },
+    {
+        "nombre":"g&g fire hawk",
+        "precio":2500,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Cqb",
+        "id":5
+    },
+    {
+        "nombre":"speedqb dsg m4 limited edicion",
+        "precio":4000,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Cqb",
+        "id":6
+    },
+    {
+        "nombre":"Lct lc m4 corta",
+        "precio":5000,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Asalto",
+        "id":7
+    },
+    {
+        "nombre":"Novritsch ssr-4",
+        "precio":3000,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Dmr",
+        "id":8
+    },
+    {
+        "nombre":"Ics cxp mars",
+        "precio":3000,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Dmr",
+        "id":9
+    },
+    {
+        "nombre":"A&k M249 heavy metal",
+        "precio":5000,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Soporte",
+        "id":10
+    },
+    {
+        "nombre":"Secutor ferrum s-series",
+        "precio":3500,
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus autem impedit fuga error possimus, iusto veritatis id? Facere iure soluta nemo eius illum,amet quisquam voluptatibus quis optio voluptatum.",
+        "tipo":"Escopeta",
+        "id":11
+    }
+]
